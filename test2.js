@@ -8,6 +8,7 @@ function dis(n){
 function clr(){
    const a = document.getElementById("display");
   a.value = '0' ;
+   del();
 
 }
 function calci(){
