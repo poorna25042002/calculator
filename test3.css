@@ -160,12 +160,5 @@ td{
     font-size: 50px;
 }
 }
-button:active{
-    height: 15rem;
-    width: 15rem;
-    border-radius: 5rem;
-    font-weight: 800;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 5rem;
-}
+
 
