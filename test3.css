@@ -85,3 +85,80 @@ td{
     padding: 2px;
 }
 
+/* making responsive */
+
+@media screen and (max-width: 480px) {
+    /* Write your CSS properties here */
+    .container{
+        height: 100rem;
+        width: 78rem;
+        left: 0px;
+        top: 40rem;
+        border: 39px solid black;
+    }
+    td{
+        padding: 6px;
+    }
+    button{
+        height: 15rem;
+        width: 15rem;
+        border-radius: 5rem;
+        font-weight: 800;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 5rem;
+    }
+    #display{
+    
+        height: 10rem;
+        width: 60rem;
+        border: 20px solid black;
+        margin-top: 2rem;
+        margin-left: 6rem;
+        text-align: right;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 4rem;
+        font-weight: 800;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        border-radius: 10rem;
+        
+        
+       
+       
+        border-radius: 1rem;
+    }
+    ::placeholder{
+        text-align: right;
+        padding: 1rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 4rem;
+        font-weight: 800;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    table{
+        margin-left: 50px;
+        padding: 1.5rem;
+        margin-top: 2rem;
+    }
+    #p1{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Courier New', Courier, monospace;
+        z-index: -2;
+        font-size: 10rem;
+        margin-top: 15rem;
+        font-weight: 800;
+        opacity: 0.5;
+        margin-left: 10rem;
+    
+}
+#icon1{
+    font-size: 50px;
+}
+}
+
+
