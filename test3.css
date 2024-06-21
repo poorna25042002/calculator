@@ -63,11 +63,7 @@ table{
     align-items: center;
 
 }
-button:active{
-    height: 4.5rem;
-    width: 4.5rem;
-    margin-left: 3px;
-}
+
 #p1{
     text-align: center;
     justify-content: center;
